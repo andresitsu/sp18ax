@@ -8,16 +8,19 @@ public class TestOffByOne {
     @Test
     public void testAB() {
         assertTrue(offByOne.equalChars('a', 'b'));
+        assertTrue(offByOne.equalChars('A', 'B'));
     }
 
     @Test
     public void testAC() {
         assertFalse(offByOne.equalChars('a', 'c'));
+        assertFalse(offByOne.equalChars('A', 'C'));
     }
 
     @Test
     public void testZA() {
         assertFalse(offByOne.equalChars('z', 'a'));
+        assertFalse(offByOne.equalChars('Z', 'A'));
     }
 
     @Test
