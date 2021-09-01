@@ -19,4 +19,15 @@ public class TestOffByOne {
     public void testZA() {
         assertFalse(offByOne.equalChars('z', 'a'));
     }
+
+    @Test
+    public void testABB() {
+        assertTrue(offByOne.equalChars('&', '%'));
+    }
+
+    @Test
+    public void testAA() {
+        assertFalse(offByOne.equalChars('a', 'A'));
+    }
+
 }

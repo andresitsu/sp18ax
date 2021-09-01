@@ -40,11 +40,6 @@ public class TestPalindrome {
     }
 
     @Test
-    public void testNull() {
-        assertTrue(palindrome.isPalindrome(null));
-    }
-
-    @Test
     public void offOneTestFlake() {
         CharacterComparator cc = new OffByOne();
         assertTrue(palindrome.isPalindrome("flake", cc));
