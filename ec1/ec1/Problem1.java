@@ -9,7 +9,7 @@ public class Problem1 {
 	 * possible number of reward points, while visiting each airport at most once.
 	 *
 	 * Runtime: O(N^2 M^2).
-	 * With N airports and M flights
+	 * With N airports and M flights 1
 	 */
 	public List<Flight> solve() {
 		// FIXME
